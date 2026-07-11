@@ -1,9 +1,9 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undangan Pernikahan Kita</title>
+    <title>Undangan Pernikahan Ruslan & Nuraeni</title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,8 +44,8 @@ e<!DOCTYPE html>
 </head>
 <body>
 
-    <!-- Musik Latar -->
-    <audio id="bg-music" loop>
+    <!-- Musik Latar (Sudah disesuaikan dengan bermuara.mp3 di repositori Anda) -->
+    <audio id="bg-music" loop preload="auto">
         <source src="bermuara.mp3" type="audio/mpeg">
     </audio>
     <button class="audio-control" onclick="toggleMusic()"><i id="music-icon" class="fas fa-play"></i></button>
@@ -54,7 +54,7 @@ e<!DOCTYPE html>
     <section class="hero">
         <div class="container">
             <h5 class="text-uppercase tracking-wide mb-3">Walimatul 'Ursy</h5>
-            <h1 class="romantic-font my-4">Pengantin Pria & Pengantin Wanita</h1>
+            <h1 class="romantic-font my-4">Ruslan & Nuraeni</h1>
             <p class="lead mb-4">Kami mengundang Anda untuk merayakan kebahagiaan kami</p>
             <div class="d-flex justify-content-center gap-3 my-4">
                 <div class="countdown-box"><span id="days">00</span>Hari</div>
@@ -72,7 +72,7 @@ e<!DOCTYPE html>
         <div class="row align-items-center">
             <div class="col-md-5">
                 <img src="https://images.unsplash.com/photo-1621616875450-79f22448040e?q=80&w=500" class="img-fluid rounded-circle mb-3 shadow" style="width: 200px; height: 200px; object-fit: cover;" alt="Pria">
-                <h3>Nama Ruslan Hasanudin, S. Ak </h3>
+                <h3>Ruslan Hasanudin, S. Ak</h3>
                 <p class="text-muted">Putra dari Bapak Saripudin & Ibu Epong Nurbaetin</p>
             </div>
             <div class="col-md-2 my-4">
@@ -93,19 +93,15 @@ e<!DOCTYPE html>
             <p class="text-muted mb-5">Momen indah kebersamaan kami</p>
             
             <div class="row g-3 justify-content-center">
-                <!-- Foto 1 -->
                 <div class="col-6 col-md-4">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552" class="img-fluid rounded shadow-sm" style="width: 100%; height: 250px; object-fit: cover;" alt="Foto 1">
                 </div>
-                <!-- Foto 2 -->
                 <div class="col-6 col-md-4">
                     <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc" class="img-fluid rounded shadow-sm" style="width: 100%; height: 250px; object-fit: cover;" alt="Foto 2">
                 </div>
-                <!-- Foto 3 -->
                 <div class="col-6 col-md-4">
                     <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a" class="img-fluid rounded shadow-sm" style="width: 100%; height: 250px; object-fit: cover;" alt="Foto 3">
                 </div>
-                <!-- Foto 4 -->
                 <div class="col-6 col-md-4">
                     <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" class="img-fluid rounded shadow-sm" style="width: 100%; height: 250px; object-fit: cover;" alt="Foto 4">
                 </div>
@@ -113,7 +109,6 @@ e<!DOCTYPE html>
         </div>
     </section>
 
-    
     <!-- 3. Kisah Cinta (Love Journey) -->
     <section class="section-padding bg-white">
         <div class="container">
@@ -186,23 +181,21 @@ e<!DOCTYPE html>
             <p class="text-muted mb-5">Doa restu Anda adalah karunia terindah. Namun jika ingin memberikan tanda kasih, Anda dapat mengirimkannya melalui rekening berikut:</p>
             
             <div class="row g-3 justify-content-center">
-                <!-- Rekening 1 -->
                 <div class="col-md-6">
                     <div class="card border-0 shadow-sm p-4 text-center bg-light">
                         <i class="fas fa-credit-card fa-2x mb-2 text-muted"></i>
                         <h5>Bank BCA</h5>
                         <p class="mb-1 fw-bold" id="norek1">1234567890</p>
-                        <p class="small text-muted mb-3">a.n. Nama Pengantin Pria</p>
+                        <p class="small text-muted mb-3">a.n. Ruslan Hasanudin</p>
                         <button class="btn btn-sm btn-outline-secondary rounded-pill" onclick="copyText('norek1')">Salin No. Rekening</button>
                     </div>
                 </div>
-                <!-- Rekening 2 -->
                 <div class="col-md-6">
                     <div class="card border-0 shadow-sm p-4 text-center bg-light">
                         <i class="fas fa-wallet fa-2x mb-2 text-muted"></i>
-                        <h5>Bank Mandiri / E-Wallet</h5>
+                        <h5>Bank Mandiri</h5>
                         <p class="mb-1 fw-bold" id="norek2">0987654321</p>
-                        <p class="small text-muted mb-3">a.n. Nama Pengantin Wanita</p>
+                        <p class="small text-muted mb-3">a.n. Nuraeni</p>
                         <button class="btn btn-sm btn-outline-secondary rounded-pill" onclick="copyText('norek2')">Salin No. Rekening</button>
                     </div>
                 </div>
@@ -231,7 +224,7 @@ e<!DOCTYPE html>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
-        <p class="mb-0">&copy; 2026 Pengantin Pria & Wanita. All Rights Reserved.</p>
+        <p class="mb-0">&copy; 2026 Ruslan & Nuraeni. All Rights Reserved.</p>
     </footer>
 
     <!-- JavaScript Fitur Interaktif -->
@@ -241,9 +234,16 @@ e<!DOCTYPE html>
         const icon = document.getElementById('music-icon');
 
         function startInvitation() {
+            // Animasi scroll halus ke bawah halaman utama
             window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
-            music.play().catch(e => console.log("Autoplay dicegah browser."));
-            icon.className = "fas fa-pause";
+            
+            // Memicu musik berputar secara aman
+            music.play().then(() => {
+                icon.className = "fas fa-pause";
+            }).catch(e => {
+                console.log("Autoplay ditahan browser, musik siap dimainkan lewat tombol manual.");
+                icon.className = "fas fa-play";
+            });
         }
 
         function toggleMusic() {
@@ -256,7 +256,7 @@ e<!DOCTYPE html>
             }
         }
 
-        // 2. Fitur Hitung Mundur (Ubah Tanggal di Sini)
+        // 2. Fitur Hitung Mundur (Target: 26 Desember 2026)
         const targetDate = new Date("Dec 26, 2026 08:00:00").getTime();
         setInterval(function() {
             const now = new Date().getTime();
@@ -287,8 +287,9 @@ e<!DOCTYPE html>
         function sendRSVP() {
             const name = document.getElementById('guest-name').value;
             const status = document.getElementById('attendance').value;
-            const phoneNumber = "6283825777432";
-            const phoneNumber = "6285863399852";// UBAH MENJADI NOMOR WHATSAPP ANDA
+            
+            // Nomor Tujuan Sesuai Permintaan (Format Murni Tanpa Simbol/Spasi)
+            const phoneNumber = "6285805611643";
 
             if(!name || !status) {
                 alert("Mohon isi nama dan konfirmasi kehadiran Anda.");
